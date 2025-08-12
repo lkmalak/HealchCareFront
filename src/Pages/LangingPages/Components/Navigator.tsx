@@ -1,6 +1,5 @@
 import * as React from "react";
 
-import { CircleCheckIcon, CircleHelpIcon, CircleIcon } from "lucide-react";
 import Link from "next/link";
 
 import {
@@ -40,7 +39,7 @@ const components: { title: string; href: string; description: string }[] = [
     },
     {
         title: "Tabs",
-        href: "/",
+        href: "/about",
         description:
             "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
     },

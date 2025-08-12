@@ -5,30 +5,24 @@ import NotFound from "@/Pages/LangingPages/NotFound";
 import Services from "@/Pages/LangingPages/Services";
 import Home from "@/Pages/LangingPages/Home";
 import Contact from "@/Pages/LangingPages/Contact";
-import NavigatorMenu from "@/Pages/LangingPages/Components/Navigator";
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home children={undefined} />,
+        element: <Home/>,
         children: [
-            {
-                path: "/services",
-                element: <Services />,
-            },
+
             {
                 path: "/about",
                 element: <About />,
             },
-            {
-                path: "/support",
-                element: <Support />,
-            },
+
             {
                 path: "/contact",
                 element: <Contact />,
             },
-
+   ],
+    },
             {
                 path: "/services",
                 element: <Services />,
@@ -49,6 +43,5 @@ export const router = createBrowserRouter([
                 path: "*",
                 element: <NotFound />,
             },
-        ],
-    },
+
 ]);
