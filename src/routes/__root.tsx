@@ -1,4 +1,4 @@
-import NavigatorMenu from "@/Pages/LangingPages/Components/Navigator";
+import NavigatorMenu from "@/features/LangingPages/Components/Navigator";
 import { createRootRoute, Outlet } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 

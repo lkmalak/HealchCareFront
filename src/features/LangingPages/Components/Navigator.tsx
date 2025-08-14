@@ -11,7 +11,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import Logo from "@/Pages/logo";
+import Logo from "@/features/logo";
 
 const components: { title: string; href: string; description: string }[] = [
   {
